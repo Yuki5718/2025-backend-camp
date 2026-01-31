@@ -17,6 +17,7 @@
 ## 技術
 
 ### 後端
+
 - **框架**: Express.js
 - **資料庫**: PostgreSQL 16.4
 - **ORM**: TypeORM
@@ -26,6 +27,7 @@
 - **測試**: Jest
 
 ### 前端
+
 - **框架**: Vue 3
 - **建構工具**: Vite
 - **路由**: Vue Router
@@ -35,6 +37,7 @@
 - **HTTP 客戶端**: Axios
 
 ### 基礎設施
+
 - **容器化**: Docker & Docker Compose
 - **資料庫**: PostgreSQL (Alpine Linux)
 - **Node 版本**: 24 (Alpine)
@@ -114,7 +117,7 @@ PORT=8080                            # API 服務連接埠
 LOG_LEVEL=debug                      # 日誌等級 (debug/info/warn/error)
 
 # JWT 認證設定
-JWT_EXPIRES_DAY=30d                  # Token 有效期限
+JWT_EXPIRES_DAY=7d                  # Token 有效期限
 JWT_SECRET=hexschool666              # JWT 簽章密鑰（生產環境請使用強密碼）
 
 # Firebase 設定（選用，目前未使用）
